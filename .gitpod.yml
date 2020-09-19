@@ -6,6 +6,6 @@ ports:
 
 tasks:
   - init: wasm-pack build && npm link pkg && (stat www/node_modules/wasm-game-of-life || npm link --prefix www wasm-game-of-life) && npm install --prefix www 
-  - command: wasm-pack && npm --prefix www start & 
+  - command: wasm-pack build && npm --prefix www start
   - command: gp await-port 8080 && gp preview localhost:8080
 
