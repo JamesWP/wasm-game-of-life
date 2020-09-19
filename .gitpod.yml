@@ -1,0 +1,7 @@
+image:
+  file: .gitpod.Dockerfile
+
+tasks:
+  - init: wasm-pack build
+    command: wasm-pack build
+
