@@ -1,4 +1,5 @@
 /target
+www/.bin
 **/*.rs.bk
 Cargo.lock
 .cargo-ok
