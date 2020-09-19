@@ -1,6 +1,6 @@
 FROM gitpod/workspace-full
 
-#RUN cargo install wasm-pack
+RUN cargo install wasm-pack
 
 # Install custom tools, runtimes, etc.
 # For example "bastet", a command-line tetris clone:
